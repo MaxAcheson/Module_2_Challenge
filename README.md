@@ -53,7 +53,7 @@ If the user selects to have the file saved to their computer, they will then be 
 This animation will show you what a path complete with a csv file name should look like:
 
 
-![Watch this for help](https://media.giphy.com/media/Z3aED4yI6YGuWlHpJ2/giphy.gif)
+![Watch this for help](https://media.giphy.com/media/DdudVObhV7Mma6FSby/giphy.gif)
 
 Once the file is saved to the user's computer, they are free to consult the data to make their decision on which loan is right for them!
 
