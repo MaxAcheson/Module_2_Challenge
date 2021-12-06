@@ -47,3 +47,20 @@ This animation should help:
 Once data is entered, the user will be told how many loans they are eligible for. If they are eligible for at least one loan, they will be prompted to save the list of loans as a csv file. The user can use y or n to select either yes or no, respectively. 
 
 If the user selects to have the file saved to their computer, they will then be asked to provide the file path where they would like the file to be saved. Make sure this file path comtains the desired file name at the end, including the .csv file format.
+
+This animation will show you what a path complete with a csv file name should look like:
+
+
+![Watch this for help](https://media.giphy.com/media/Z3aED4yI6YGuWlHpJ2/giphy.gif)
+
+Once the file is saved to the user's computer, they are free to consult the data to make their decision on which loan is right for them!
+
+## Contributors
+
+Max Acheson
+maxacheson@gmail.com
+([Here is my LinkedIn page](https://www.linkedin.com/in/max-acheson-75093a19a/))
+
+## Licenses
+
+This program is license-free and free to use!
