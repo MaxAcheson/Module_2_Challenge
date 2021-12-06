@@ -28,9 +28,9 @@ def load_csv(csvpath):
             data.append(row)
     return data
 
-def save_csv(path, new_loan_data):
+def save_csv(path, new_loan_data): # This save_csv file allows data from the new filtered loan list to be written into a CSV file.
     
-    with open(path, "w") as csvfile:
-        csvwriter = csv.writer(csvfile, delimiter = ",")
-        for row in new_loan_data:
-            csvwriter.writerow(row)
+    with open(path, "w") as csvfile: # This line describes the file path, and that we are writing to a CSV file. 
+        csvwriter = csv.writer(csvfile, delimiter = ",") # This part explains how the file will be written, using commas (,) as the separator for text strings.
+        for row in new_loan_data: # Used a 'for loop' to access data within new_loan_data.
+            csvwriter.writerow(row) # Telling the csvwriter to write data as rows in the CSV file. 

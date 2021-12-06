@@ -114,18 +114,18 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    if len(qualifying_loans) == 0:
-        qualifying_loans = None
-    if qualifying_loans == None:
-        sys.exit("Better luck next time!")
+    if len(qualifying_loans) == 0: # In order to get python to recognize that the length of the loans list = None, I wrote this conditional.
+        qualifying_loans = None # Without this conditional, the code would still ask the user if they wanted to save their data even if the program returned no filtered loans.
+    if qualifying_loans == None: #This conditional takes the above calculation and tells the system to close if there are no filtered loans. 
+        sys.exit("Better luck next time!") # System exit message that closes the program.
 
-    save_file_confirmation = questionary.confirm("Would you like to save your results to a CSV file?").ask()
+    save_file_confirmation = questionary.confirm("Would you like to save your results to a CSV file?").ask() # The save file prompt that comes up if any filtered loans are found. 
 
-    if save_file_confirmation == False:
-        sys.exit("Your files will not be saved.")
-    elif save_file_confirmation == True:
-        filepath = questionary.text("Enter in the file path where you would like to save your file.").ask()
-        save_csv(filepath, qualifying_loans)
+    if save_file_confirmation == False: # A conditional that tells the program to close if the user does not wish to save their filtered loans.
+        sys.exit("Your files will not be saved.") # The exit message that appears as the program ends. 
+    elif save_file_confirmation == True: # The other portion of the conditional that moves the user forward if they choose to save their file.
+        filepath = questionary.text("Enter in the file path where you would like to save your file.").ask() # The question prompt that appears when users choose to save their file.
+        save_csv(filepath, qualifying_loans) # The imported save_csv function from the fileio.py. This saves the file to the users computer.
         
 
 
