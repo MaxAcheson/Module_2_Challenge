@@ -16,20 +16,25 @@ There is only one version of the program uploaded, so there should not be versio
 ## Installation Guide
 
 To install the updated version of fire, please enter the following in your terminal:
+
 ```pip install fire```
 
 To install the updated version of questionary, please enter the following in your terminal:
+
 ```pip instal questionary```
 
 ## Usage
 
 To use this program in a CLI, clients must first enter dev mode in order to run the program. This can be achieved by using this code:
+
 ```conda activate dev```
 
 Next, once in dev mode, a user must navigate to the file path where the program exists on their computer, and then run the program using this code:
+
 ```python app.py```
 
 Once the program is running, the user must select the file path in which they would like to use to load the compelte list of bank loan options. This can be done by typing in the completed file path including the file name. The code will be similar to this, just with a different path:
+
 ```C:\Users\maxac\Documents\School\Challenges\Module_2_Challenge\Module_2_Challenge\Starter_Code\loan_qualifier_app\data\daily_rate_sheet.csv```
 
 Next, the user will be asked to input several values in order to get a new filtered list of bank loans that fit their individual needs. They should use authentic values to increase their odds of finding loans that suit their needs. Please use integers only, and submit each answer by pressing enter. 
@@ -41,4 +46,4 @@ This animation should help:
 
 Once data is entered, the user will be told how many loans they are eligible for. If they are eligible for at least one loan, they will be prompted to save the list of loans as a csv file. The user can use y or n to select either yes or no, respectively. 
 
-If the user selects to have the file saved to their computer, they will then be asked to provide the file path where they would like the file to be saved. Make 
+If the user selects to have the file saved to their computer, they will then be asked to provide the file path where they would like the file to be saved. Make sure this file path comtains the desired file name at the end, including the .csv file format.
