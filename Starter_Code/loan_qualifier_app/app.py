@@ -113,10 +113,8 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    if len(qualifying_loans) == 0: # In order to get python to recognize that the length of the loans list = None, I wrote this conditional.
-        qualifying_loans = None # Without this conditional, the code would still ask the user if they wanted to save their data even if the program returned no filtered loans.
-    if qualifying_loans == None: #This conditional takes the above calculation and tells the system to close if there are no filtered loans. 
+    
+    if len(qualifying_loans) == 0: #This conditional checks if the list of loans is empty. If it is empty, then it passes to the system exit message.
         sys.exit("Better luck next time!") # System exit message that closes the program.
 
     save_file_confirmation = questionary.confirm("Would you like to save your results to a CSV file?").ask() # The save file prompt that comes up if any filtered loans are found. 
