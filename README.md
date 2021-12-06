@@ -1,4 +1,4 @@
-# Loan Application Tool for the Module 2 Challenge
+# Loan Qualifier Tool for Module 2 Challenge
 
 This loan application program is designed to give people a customized list of bank loans based on various points of information regarding their financial standing and history. 
 Many people find it difficult to interact with a bank teller in order to figure out what loans are available for them. This program seeks to analyze the whole process by filtering data from a spreadsheet full of daily loan rates from various banks.
