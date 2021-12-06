@@ -16,21 +16,21 @@ There is only one version of the program uploaded, so there should not be versio
 ## Installation Guide
 
 To install the updated version of fire, please enter the following in your terminal:
-'pip install fire'
+```pip install fire```
 
 To install the updated version of questionary, please enter the following in your terminal:
-'pip instal questionary'
+```pip instal questionary```
 
 ## Usage
 
 To use this program in a CLI, clients must first enter dev mode in order to run the program. This can be achieved by using this code:
-'conda activate dev'
+```conda activate dev```
 
 Next, once in dev mode, a user must run the program using this code:
-'python app.py'
+```python app.py```
 
 Once the program is running, the user must select the file path in which they would like to use to load the compelte list of bank loan options. This can be done by typing in the completed file path including the file name. Your code will be similar to this, just with a different path:
-'C:\Users\maxac\Documents\School\Challenges\Module_2_Challenge\Module_2_Challenge\Starter_Code\loan_qualifier_app\data\daily_rate_sheet.csv'
+```C:\Users\maxac\Documents\School\Challenges\Module_2_Challenge\Module_2_Challenge\Starter_Code\loan_qualifier_app\data\daily_rate_sheet.csv```
 
 Next, the user will be asked to input several values in order to get a new filtered list of bank loans that fit their individual needs. This are somewhat straightforward. Use integers only, and submit each answer by pressing enter. This video should help:
 
