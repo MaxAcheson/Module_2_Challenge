@@ -6,12 +6,13 @@ This is a command line application to match applicants with qualifying loans.
 Example:
     $ python app.py
 """
+from re import X
 import sys
 import fire
 import questionary
 from pathlib import Path
 
-from qualifier.utils.fileio import load_csv
+from qualifier.utils.fileio import load_csv, save_csv
 
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
@@ -90,26 +91,48 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     # Calculate loan to value ratio
     loan_to_value_ratio = calculate_loan_to_value_ratio(loan, home_value)
     print(f"The loan to value ratio is {loan_to_value_ratio:.02f}.")
-
+    
     # Run qualification filters
+
     bank_data_filtered = filter_max_loan_size(loan, bank_data)
     bank_data_filtered = filter_credit_score(credit_score, bank_data_filtered)
     bank_data_filtered = filter_debt_to_income(monthly_debt_ratio, bank_data_filtered)
     bank_data_filtered = filter_loan_to_value(loan_to_value_ratio, bank_data_filtered)
 
     print(f"Found {len(bank_data_filtered)} qualifying loans")
-
+    
     return bank_data_filtered
+    
+
+
 
 
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
-
+    
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    if len(qualifying_loans) == 0:
+        qualifying_loans = None
+    if qualifying_loans == None:
+        sys.exit("Better luck next time!")
+
+    save_file_confirmation = questionary.confirm("Would you like to save your results to a CSV file?").ask()
+
+    if save_file_confirmation == False:
+        sys.exit("Your files will not be saved.")
+    elif save_file_confirmation == True:
+        filepath = questionary.text("Enter in the file path where you would like to save your file.").ask()
+        save_csv(filepath, qualifying_loans)
+        
+
+
+
+
+
+
 
 
 def run():
