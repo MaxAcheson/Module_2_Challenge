@@ -33,6 +33,6 @@ Once the program is running, the user must select the file path in which they wo
 ```C:\Users\maxac\Documents\School\Challenges\Module_2_Challenge\Module_2_Challenge\Starter_Code\loan_qualifier_app\data\daily_rate_sheet.csv```
 
 Next, the user will be asked to input several values in order to get a new filtered list of bank loans that fit their individual needs. Use authentic values to increase your odds of finding loans that suit your needs. Please use integers only, and submit each answer by pressing enter. This video should help:
-(<https://imgur.com/a/sOv8UuN>)
+([Watch this for help]((https://imgur.com/a/sOv8UuN))
 
 Once data is entered, the user will be told how many loans they are eligible for. If they are eligible for at least one loan, they will be prompted to save the list of loans as a csv file. The user can use y or no to select either yes or no, respectively. 
