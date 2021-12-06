@@ -5,7 +5,7 @@ Many people find it difficult to interact with a bank teller in order to figure 
 
 ## Technologies
 
-This program was written in VS Code and executed in GitBash terminal on a PC running windows 10. The program should run smoothly on any operating system in any terminal as long as the following minimum requirements are met:
+This program was written in VS Code and executed in GitBash terminal on a PC running windows 10. The program should run smoothly on any operating system in any CLI terminal as long as the following minimum requirements are met:
 
 python 3.7.10
 
