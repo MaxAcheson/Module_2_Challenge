@@ -114,7 +114,7 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     
-    if len(qualifying_loans) == 0: #This conditional checks if the list of loans is empty. If it is empty, then it passes to the system exit message.
+    if len(qualifying_loans) == 0: # This conditional checks if the length of the list of loans is euql to zero. If it is 0, then the list is empty and it passes to the system exit message.
         sys.exit("Better luck next time!") # System exit message that closes the program.
 
     save_file_confirmation = questionary.confirm("Would you like to save your results to a CSV file?").ask() # The save file prompt that comes up if any filtered loans are found. 
