@@ -8,7 +8,9 @@ Many people find it difficult to interact with a bank teller in order to figure 
 This program was written in VS Code and executed in GitBash terminal on a PC running windows 10. The program should run smoothly on any operating system in any terminal as long as the following minimum requirements are met:
 
 python 3.7.10
+
 questionary 0.2.5
+
 fire 1.15.0
 
 There is only one version of the program uploaded, so there should not be version errors. 
