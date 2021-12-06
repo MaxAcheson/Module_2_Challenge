@@ -58,8 +58,10 @@ Once the file is saved to the user's computer, they are free to consult the data
 ## Contributors
 
 Max Acheson
+
 maxacheson@gmail.com
-([Here is my LinkedIn page](https://www.linkedin.com/in/max-acheson-75093a19a/))
+
+[Here is my LinkedIn page](https://www.linkedin.com/in/max-acheson-75093a19a/)
 
 ## Licenses
 
