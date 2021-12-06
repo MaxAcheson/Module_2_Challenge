@@ -1,0 +1,50 @@
+   17  git add README.md
+   18  git commit -m "This time better be right!"
+   19  git push
+   20  git add README.md
+   21  git commit -m "It worked! Just need to move stuff around now."
+   22  git push
+   23  git add README.md
+   24  git commit -m "Same old"
+   25  git push
+   26  python app.py
+   27  cd Starter_Code
+   28  ls
+   29  cd loan_qualifier_app
+   30  python app.py
+   31  python app.py
+   32  python app.py
+   33  python app.py
+   34  cd ..
+   35  cd ..
+   36  git status
+   37  git add README.md
+   38  git add Starter_Code/loan_qualifier_app/new_loan.csv
+   39  git status
+   40  git commit -m "Added the csv file that the program creates using test data figures. Also added another update to the readme."
+   41  git push
+   42  git add README.md
+   43  git commit -m "Another read me tweak"
+   44  git push
+   45  git add README.me
+   46  git add README.md
+   47  git commit -m "Added the final edits to my readme. (Hopefully)"
+   48  git push
+   49  git add README.md
+   50  git commit -m "One more time..."
+   51  git push
+   52  git add README.md
+   53  git commit -m "Mehhhh"
+   54  git push
+   55  cd ..
+   56  cd Module_2_Challenge
+   57  ls
+   58  cd Starter_Code
+   59  cd ..
+   60  git status
+   61  git add Starter_Code/loan_qualifier_app/app.py
+   62  git add Starter_Code/loan_qualifier_app/qualifier/utils/fileio.py
+   63  git status
+   64  git commit -m "Added my final comments into my coding"
+   65  git push
+   66  history 50 > terminal_history.txt
