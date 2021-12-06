@@ -29,14 +29,16 @@ To use this program in a CLI, clients must first enter dev mode in order to run 
 Next, once in dev mode, a user must navigate to the file path where the program exists on their computer, and then run the program using this code:
 ```python app.py```
 
-Once the program is running, the user must select the file path in which they would like to use to load the compelte list of bank loan options. This can be done by typing in the completed file path including the file name. Your code will be similar to this, just with a different path:
+Once the program is running, the user must select the file path in which they would like to use to load the compelte list of bank loan options. This can be done by typing in the completed file path including the file name. The code will be similar to this, just with a different path:
 ```C:\Users\maxac\Documents\School\Challenges\Module_2_Challenge\Module_2_Challenge\Starter_Code\loan_qualifier_app\data\daily_rate_sheet.csv```
 
-Next, the user will be asked to input several values in order to get a new filtered list of bank loans that fit their individual needs. Use authentic values to increase your odds of finding loans that suit your needs. Please use integers only, and submit each answer by pressing enter. 
+Next, the user will be asked to input several values in order to get a new filtered list of bank loans that fit their individual needs. They should use authentic values to increase their odds of finding loans that suit their needs. Please use integers only, and submit each answer by pressing enter. 
 
 This animation should help:
 
 
 ![Watch this for help](https://media.giphy.com/media/kf7QuXtWyNhovAggtf/giphy.gif)
 
-Once data is entered, the user will be told how many loans they are eligible for. If they are eligible for at least one loan, they will be prompted to save the list of loans as a csv file. The user can use y or no to select either yes or no, respectively. 
+Once data is entered, the user will be told how many loans they are eligible for. If they are eligible for at least one loan, they will be prompted to save the list of loans as a csv file. The user can use y or n to select either yes or no, respectively. 
+
+If the user selects to have the file saved to their computer, they will then be asked to provide the file path where they would like the file to be saved. Make 
