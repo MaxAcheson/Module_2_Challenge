@@ -23,7 +23,7 @@ To install the updated version of fire, please enter the following in your termi
 
 To install the updated version of questionary, please enter the following in your terminal:
 
-```pip instal questionary```
+```pip install questionary```
 
 ## Usage
 
